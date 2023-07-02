@@ -1,0 +1,3365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movies</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <link rel="stylesheet" href="css/select2-bootstrap4.min.css" />
+
+  <link rel="stylesheet" href="css/slick-animation.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+
+<body>
+  <header id="main-header">
+    <div class="main-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+              <a href="#" class="navbar-toggler c-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="navbar-toggler-icon" data-toggle="collapse">
+                  <span class="navbar-menu-icon navbar-menu-icon--top"></span>
+                  <span class="navbar-menu-icon navbar-menu-icon--middle"></span>
+                  <span class="navbar-menu-icon navbar-menu-icon--bottom"></span>
+                </div>
+              </a>
+              <a href="index.html" class="navbar-brand">
+                <img src="https://webflix.virmana.com/uploads/png/f1a8b452fb8da0547563a7b50aad54e1.png" class="img-fluid logo" alt="" />
+              </a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="menu-main-menu-container">
+                  <ul id="top-menu" class="navbar-nav ml-auto">
+                    <li class="menu-item"><a href="/index.html">Home</a></li>
+                    <li class="menu-item"><a href="#">Movies</a></li>
+                    <li class="menu-item"><a href="/TVShows.html">Shows</a></li>
+                    <li class="menu-item">
+                      <a href="#">Contact Us</a>
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="https://about.netflix.com/en/about-us">About Us</a></li>
+                        <li class="menu-item"><a href="https://help.netflix.com/en/contactus">Contact</a></li>
+                        <li class="menu-item"><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+                        <li class="menu-item">
+                          <a href="https://help.netflix.com/legal/privacy">Privacy-Policy</a>
+                        </li>
+                        <li class="menu-item">
+                          <a href="#">Pricing</a>
+                          <ul class="sub-menu">
+                            <li class="menu-item">
+                              <a href="#">Gold Membership</a>
+                            </li>
+                            <li class="menu-item">
+                              <a href="#">Silver Membership</a>
+                            </li>
+                            <li class="menu-item">
+                              <a href="#">Bronze Membership</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mobile-more-menu">
+                <a href="javascript:void(0);" class="more-toggle" id="dropdownMenuButton" data-toggle="more-toggle"
+                  aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-ellipsis-h"></i>
+                </a>
+                <div class="more-menu" aria-labelledby="dropdownMenuButton">
+                  <div class="navbar-right position-relative">
+                    <ul class="d-flex align-items-center justify-content-end list-inline m-0">
+                      <li>
+                        <a href="#" class="search-toggle">
+                          <i class="fa fa-search"></i>
+                        </a>
+                        <div class="search-box iq-search-bar">
+                          <form action="#" class="searchbox">
+                            <div class="form-group position-relative">
+                              <input type="text" class="text search-input font-size-12"
+                                placeholder="type here to search..." />
+                              <i class="search-link fa fa-search"></i>
+                            </div>
+                          </form>
+                        </div>
+                      </li>
+                      <li class="nav-item nav-icon">
+                        <a href="#" class="search-toggle position-relative">
+                          <i class="fa fa-bell"></i>
+                          <span class="bg-danger dots"></span>
+                        </a>
+                        <div class="iq-sub-dropdown">
+                          <div class="iq-card shadow-none m-0">
+                            <div class="iq-card-body">
+                              <a href="#" class="iq-sub-card">
+                                <div class="media align-items-center">
+                                  <img src="images/notify/thumb-1.jpg" alt="" class="img-fluid mr-3" />
+                                  <div class="media-body">
+                                    <h6 class="mb-0">Captain Marvel</h6>
+                                    <small class="font-size-12">just now</small>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="#" class="iq-sub-card">
+                                <div class="media align-items-center">
+                                  <img src="images/notify/thumb-2.jpg" alt="" class="img-fluid mr-3" />
+                                  <div class="media-body">
+                                    <h6 class="mb-0">
+                                      Dora and The Lost City of Gold
+                                    </h6>
+                                    <small class="font-size-12">25m ago</small>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="#" class="iq-sub-card">
+                                <div class="media align-items-center">
+                                  <img src="images/notify/thumb-3.jpg" alt="" class="img-fluid mr-3" />
+                                  <div class="media-body">
+                                    <h6 class="mb-0">Mulan</h6>
+                                    <small class="font-size-12">1h 30m ago</small>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <a href="#" class="iq-user-dropdown search-toggle d-flex align-items-center">
+                          <img src="images/user/user.png" class="img-fluid user-m rounded-circle" alt="" />
+                        </a>
+                        <div class="iq-sub-dropdown iq-user-dropdown">
+                          <div class="iq-card shadow-none m-0">
+                            <div class="iq-card-body p-0 pl-3 pr-3">
+                              <a href="#" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-user text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0">Manage Profile</h6>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="#" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-cog text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0">Settings</h6>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="#" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-inr text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0">Pricing Plan</h6>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="#" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-sign-out text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0">Logout</h6>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="navbar-right menu-right">
+                <ul class="d-flex align-items-center list-inline m-0">
+                  <li class="nav-item nav-icon">
+                    <a href="#" class="search-toggle device-search">
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <div class="search-box iq-search-bar d-search">
+                      <form action="#" class="searchbox">
+                        <div class="form-group position-relative">
+                          <input type="text" class="text search-input font-size-12"
+                            placeholder="type here to search..." />
+                          <i class="search-link fa fa-search"></i>
+                        </div>
+                      </form>
+                    </div>
+                  </li>
+                  <li class="nav-item nav-icon">
+                    <a href="#" class="search-toggle" data-toggle="search-toggle">
+                      <i class="fa fa-bell"></i>
+                      <span class="bg-danger dots"></span>
+                    </a>
+                    <div class="iq-sub-dropdown">
+                      <div class="iq-card shadow-none m-0">
+                        <div class="iq-card-body">
+                          <a href="#" class="iq-sub-card">
+                            <div class="media align-items-center">
+                              <img src="images/notify/thumb-1.jpg" alt="" class="img-fluid mr-3" />
+                              <div class="media-body">
+                                <h6 class="mb-0">Captain Marvel</h6>
+                                <small class="font-size-12">just now</small>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="#" class="iq-sub-card">
+                            <div class="media align-items-center">
+                              <img src="images/notify/thumb-2.jpg" alt="" class="img-fluid mr-3" />
+                              <div class="media-body">
+                                <h6 class="mb-0">
+                                  Dora and The Lost City of Gold
+                                </h6>
+                                <small class="font-size-12">25m ago</small>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="#" class="iq-sub-card">
+                            <div class="media align-items-center">
+                              <img src="images/notify/thumb-3.jpg" alt="" class="img-fluid mr-3" />
+                              <div class="media-body">
+                                <h6 class="mb-0">Mulan</h6>
+                                <small class="font-size-12">1h 30m ago</small>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item nav-icon">
+                    <a href="#" class="iq-user-dropdown search-toggle d-flex align-items-center p-0">
+                      <img src="images/user/user.png" class="img-fluid user-m rounded-circle" alt="" />
+                    </a>
+                    <div class="iq-sub-dropdown iq-user-dropdown">
+                      <div class="iq-card shadow-none m-0">
+                        <div class="iq-card-body p-0 pl-3 pr-3">
+                          <a href="#" class="iq-sub-card setting-dropdown">
+                            <div class="media align-items-center">
+                              <div class="right-icon">
+                                <i class="fa fa-user text-primary"></i>
+                              </div>
+                              <div class="media-body ml-3">
+                                <h6 class="mb-0">Manage Profile</h6>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="#" class="iq-sub-card setting-dropdown">
+                            <div class="media align-items-center">
+                              <div class="right-icon">
+                                <i class="fa fa-cog text-primary"></i>
+                              </div>
+                              <div class="media-body ml-3">
+                                <h6 class="mb-0">Settings</h6>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="#" class="iq-sub-card setting-dropdown">
+                            <div class="media align-items-center">
+                              <div class="right-icon">
+                                <i class="fa fa-inr text-primary"></i>
+                              </div>
+                              <div class="media-body ml-3">
+                                <h6 class="mb-0">Pricing Plan</h6>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="#" class="iq-sub-card setting-dropdown">
+                            <div class="media align-items-center">
+                              <div class="right-icon">
+                                <i class="fa fa-sign-out text-primary"></i>
+                              </div>
+                              <div class="media-body ml-3">
+                                <h6 class="mb-0">Logout</h6>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="nav-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <br><br><br>
+
+  <!-- main content starts  -->
+  <div class="main-content">
+    <!-- favorite section starts   -->
+
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Action Movies</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/favorite/TheMatrix.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> The Matrix <br> Resurrections </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">1h 43m</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <a href="/Preview/Matrix/index.html"><span class="btn btn-hover iq-button">
+                            <i class="fa fa-play mr-1"></i>
+                            Play Now
+                          </span></a>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="images/favorite/AAAABRkrNnTE6IxTHse737xPKGo7R9f91qmDWPLdggkSRWmJEtYjaps-P6OSae6bKp7MTEcqo0dLe6OwkxFQHvn8KiRWPC0.jpg"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Spider-Man</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">12+</div>
+                        <span class="text-white">2h 34m</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <a href="/Preview/Spider-Man/index.html">
+                          <span class="btn btn-hover iq-button">
+                            <i class="fa fa-play mr-1"></i>
+                            Play Now
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">58+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/favorite/spiderman-2.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Spider-Man 2 </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">18+</div>
+                        <span class="text-white">2h 57m</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <a href="/Preview/Spider-Man 2/index.html">
+                          <span class="btn btn-hover iq-button">
+                            <i class="fa fa-play mr-1"></i>
+                            Play Now
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img src="images/favorite/Spiderman3.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Spider-Man 3 </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">10+</div>
+                        <span class="text-white">2h 23m</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <a href="/Preview/Spider-Man 3/index.html">
+                          <span class="btn btn-hover iq-button">
+                            <i class="fa fa-play mr-1"></i>
+                            Play Now
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABX0PtSPw59nh_ScwhDYvqvx5jvaFOqQnBJrttZyGo1Cg6SXcsu1fLgPRTZ6LysCXGN2SE0rlowH4NBMWNE5OPmb9DMEiau5BFXsQjfAw39CYVjbGwkKq5k8ZGqyH.jpg?r=a7a"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="/Preview/Red Notice/index.html"> Red Notice </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">12+</div>
+                        <span class="text-white">1h 55m</span>
+                      </div>
+                      <a href="/Preview/Red Notice/index.html">
+                        <div class="hover-buttons">
+                          <span class="btn btn-hover iq-button">
+                            <i class="fa fa-play mr-1"></i>
+                            Play Now
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- favourite section ends -->
+
+    <!-- upcoming contents section starts  -->
+    <section id="iq-upcoming-movie">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Sci-Fi & Fantasy</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRQGGMwHeWkwOUsCQ1RYgha6brThLto_NcQr3pZf3QXJvLLMS4N9_7bFaF7jRZC5hkRGJmIMWl1DJSLh9gE7dFAjA5Y.jpg?r=ab6"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Transformers: <br> The Last Knight </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 34m</span>
+                      </div>
+                      <a href="/Preview/Transformers/index.html">
+                        <div class="hover-buttons">
+                          <span class="btn btn-hover iq-button">
+                            <i class="fa fa-play mr-1"></i>
+                            Play Now
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">89+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeWRsj0W6z4tvxiiXIs2Jvl9CzAWGoymFd0zP9Ypm2IT6WZ82VA82XY0Mxex-81s_5o3qUJKDq9iE5FQUXrE4Cu1jsQ.jpg?r=bdb"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="/Preview/Rampage/index.html"> Rampage </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">1h 47m</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <a href="/Preview/Rampage/index.html"><span class="btn btn-hover iq-button">
+                            <i class="fa fa-play mr-1"></i>
+                            Play Now
+                          </span></a>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">35+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUym3OKn7kGt6Y3rhKveSaPADrk_Vafeydn8q3KHM6dX1AF7y5fJx49zOy8ZuLNv4N1bsPCoFX-1ICDV92yuAMGsFuxCnZ52dFHNtfkdZjD0ra59WyNafxP2ENJq.jpg?r=3a6"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="/Preview/Mogwli/index.html"> Mowgli: <br> Legend of the Jungle </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">1h 44m</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <a href="/Preview/Mogwli/index.html"><span class="btn btn-hover iq-button">
+                            <i class="fa fa-play mr-1"></i>
+                            Play Now
+                          </span></a>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">99+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABa-LOYQMPFjqruaTsAeS82isB4JDNCAKARqjcaWkVuED5G30aC6IjFQyGI8gh-qHjX1Z7DkCQpKO_dFCE-9zQnawOVk.jpg?r=b5a"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="/Preview/Godzilla/index.html"> Godzilla: <br> King of the Monsters </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 12min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <a href="/Preview/Godzilla/index.html"><span class="btn btn-hover iq-button">
+                            <i class="fa fa-play mr-1"></i>
+                            Play Now
+                          </span></a>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSA4Qr5w4epxhVIR7m_8yvJThN6KZqdIObAgXq7x_uydMa5e0z9Um3qSzlQiM4DK4Vbpel8cSicfIRgYeDoEJe_yy70.jpg?r=348"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="/Preview/Journey 2/index.html"> Journey 2: <br> The Mysterious Island </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">1h 34min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <a href="/Preview/Journey 2/index.html"><span class="btn btn-hover iq-button">
+                            <i class="fa fa-play mr-1"></i>
+                            Play Now
+                          </span></a>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- upcoming contents section ends -->
+
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Indian Movies</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABexS0LfxGgUSaFLpju6Vv-iWtY4wClZY2BfiRScvXqu5Gnc6Foxb5ZYGJ1NpkEaBb3VLTrpzQv7XKO0J_BV3Dps2n1g.jpg?r=947"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Sooryavanshi </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">2h 23min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTIvURpZmdPluxvquLS9gu2Eld-qbVWImdm543-8T76Dze4HMg9fqmxu5fYgXHDx7z3OfkPmw-MOxz2pucB2L5kaJeI.jpg?r=d27"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Raees</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">18+</div>
+                        <span class="text-white">2h 23min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">58+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABflhJCxVV-u6Zx40x_sFm4ZSeg6yGMFk_VWa-JyRMhDXj6t3DYx_H5wLK1GNcB3rXRTf54Tz-sqfwgfY9nfJ6qu-s6c.jpg?r=7c0"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Chennai Express </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 14min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYOblR7mudEVclZIL7SmKf_CXnOnGhqOGDGmxAJlJNkH1Gb13Yv7_lYeqQMGxT3oHqqnCXOK1J7r5tgIZ3l0pXRwnD0.jpg?r=59e"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Zindagi Na Milegi Dobara </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 34min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRwyps1jO9ky0Y6o3U5kIpBXTfXvFI01r-h66DHAfcSDchaovojUT4KuVcbohNqsZ80_QRsRcss11fbt4QGflDS6dcA.jpg?r=ba2"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> 3 Idiots </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">2h 43min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Hollywood Movies</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABaUD92whdwqVnEPh5fMHOBL5vext3SdEnKXR03ZDZ7on7yhm0es-61Q_70kKhas_PtfHMDD49bJJ4F3w015XiAFW7H9cDUzEDl8TFSKPAHWhImqoatBUPOMxuj2N.jpg?r=1f7"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Extraction </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">18+</div>
+                        <span class="text-white">1h 57min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQjNneWs0FW15zkfazr9Vl_rQtlEOSur1f897sgv6sGFZn7iFqamEAqNMX4yUmQB8m0CNWUL9HAwGN_T07Qb1W3zR_0uPbOBHWN0b5IwOZjkgMRDztlm3GYu7IGN.jpg?r=c52"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> The Old Guard</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">18+</div>
+                        <span class="text-white">2h 5min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">58+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABaCWlLDAB0mRF6NbXecqUsqoyQ8EE7Q-q0kf_p6JhWbzt9hJGhPkzP5RCV-aZbQK0W5XYV_CL_Ivw8HpNVJegcr7eQQixoqfxg9CX0GrWe3KfciS4v-QCsESwOBQ.jpg?r=5a0"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Army of the Dead </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">18+</div>
+                        <span class="text-white">2h 28min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTakhvVLP7pEx3N6lznpnUX-pPCqaWEP8SoKas38_n_g2WrYymU8usw4W_M3w7w4F166a3l-Mec4AvD7SDC1HXJI9As.jpg?r=bcd"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Gemini Man </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">1h 58min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTFiGK_0Pcn28TFLtYXRc72gJbT6n6N8fY0H9pcRv06QQO9uRMPOrXPk8B9AI9jFoVRQ2PMYjwSgeouWRU_RWpNZM78.jpg?r=475"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> San Andreas </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">1h 54min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Children & Family Movies</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZT9uFDe5yHyV1-0Tlbp1t12QXUM3ACjNBhL6JACgE8usHUlVANLlG61fWlUMFb_MKTkyhanQmbtE-mNg-yga51chhs.jpg?r=56a"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#">Dolittle</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">7+</div>
+                        <span class="text-white">1h 41min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABauGRbGybhE9R80G3ZePFsvpVviD6n_aIZ73vJJg_hkkspmMM2lDDFr_XTqQS4V30zL0D-w5D3X_M-P5GTMBVTVZAqc.jpg?r=17f"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> The Angry Birds Movie 2
+                        </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">7+</div>
+                        <span class="text-white">1h 36min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">58+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZNYLGeXRiisotBoxlI9vTZKWv-uCrt8t_uJBmP3NPunqr51BWl9Iq_tkCRiM7CoId7GjunahTbenxa9QffhnNbg6DU.jpg?r=253"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Minions </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">7+</div>
+                        <span class="text-white">1h 30min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXF3_tG0Zl1ZJAZUwwJUUJ-7-c2lZ0WQwfYBKyLYvgvZ9rh6YcQ8Ys8u60BzA4kGRbLqAzH0Y1ZxpcCONsMDx8yXCsg.jpg?r=eed"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#">Shrek</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">7+</div>
+                        <span class="text-white">1h 30min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXoHd4C8TETqdt4ywdgDv29WOblRMI5D6mtfs_o1tGau-3tbgOYlMuPqw6VlWpyHSZGlzhMptGJ-syKYvsVCY12Orek.jpg?r=a18"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Stuart Little </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">7+</div>
+                        <span class="text-white">1h 24min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Movies Based on Real Life</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQ3hK2TnzfPLv-AoK4iOZFFrXAQ_xhtYBIwIK9_W2GSGiKVmS-PELnw_oyCmADERkWWDGaxfsrBOlWAzbKDvvEEdhZ4.jpg?r=530"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#">Thackeray</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">2h 14min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeko0x6dmPbgsa21sF42InUeuTH1W7LIG8hAipIOFf1xM6piyv4i0P1fx4-8g1NQ6VVuueYX6pWZ5J1Lb9W6BViwoc4.jpg?r=8b8"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Dangal</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">7+</div>
+                        <span class="text-white">2h 40min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">58+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABY-c0HA6KQ04klfZQ4oZg3F03Q-lRS3rwlCDA8DNGHAL2-iFM4WnLvlBYyUXZOT3gAuJFDc2jfyJ8SwerSkNOOUSC-M.jpg?r=f81"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Panipat </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">2h 50min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVk7buj6QSffMPVXmTterSnWA-9huZCq184JcOcTgiGC67IXP1NxGujoN5T3ZA7PHH4KzlhBZivEkIKEyHJVu7EN-I8.jpg?r=80a"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Sanju </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">18+</div>
+                        <span class="text-white">2h 38min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRdVGWnk_CIn5SFZhCQN_ieIuaIXJm1iAfHsujI5B0-PmN1GzeQJkHFbeMWKSAKl2auZiYCEDvS5TMeR8aF23LCEUaU.jpg?r=086"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Sully </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">1h 35min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Hindi Movies & TV</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfwjAtxkx1sy72sfVnkYfTd5dVJgnx_MIOWopJdZrUgqOkNqKiJ32TbXo2wRz-cArn-dlUWyfvgiqOBOZe5s98drmL4.jpg?r=e37"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Kabir Singh</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">18+</div>
+                        <span class="text-white">2h 51min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTW9z3JNpCl0xVTfx3oSKkp7GMlwxrf7f0OteeU3cinoPEnr5iVvNN3ONHG7ncSbTFqSsQZEOmrsFFw4JJiSj8pYFUc.jpg?r=bea"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Swades: We, the People</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">7+</div>
+                        <span class="text-white">3h 4min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">58+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSGjuFmNeas9MNalctb4leMWFgLOqZaU4ggCMpleL75oz5gqoufscMY7ab7NSVjhRPOibPRyQenmnA8JRe3A1JlIuZ4.jpg?r=f86"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Munna Bhai MBBS </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 29min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfsyI1SW_46LND-EBsWLjfrFgoGoOnRUx_8R5K7ChxlCGjN6w6DWgJ7N9cDi9-5v4FB7F0BDKBC4AsC8O4AE5WO46Ew.jpg?r=ff6"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Om Shanti Om </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">2h 48min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZb7e9uUWJT27JbQVQRr7RpINvChY-y7eBb_-Lj1cLsY0amHxM4AIAslIMcMi9XHtjV6bD3ZEO6pE6DEaEjXjL3Q8eQ.jpg?r=902"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Yeh Jawaani Hai Deewani </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 40min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Fantasy Movies</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZ2804JZk6MwzGeahCVPkJwsARNUqBl65Xg7iCiXAu1H4qwCiRaBgclqPnGwT6C2wlZGSzHUd4dXRdMpQfueFTCPEw4.jpg?r=903"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Gods of Egypt </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 6min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSpchHP0m1su_nNjsyskNggn2DbgFn0JHrxwHMQxa6cE-0S-EerY4VZEaOFADyUziWLMPy0FFhNlexnyDCnUZd1kIA0.jpg?r=b02"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> The Last Airbender</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">1h 44min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">58+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVmJK1_7A4vg_IJQ1pPd5QgYQOgUQeVcOmZPDg5eDziVSiRAYeaJhEjQFE-OKzQOJw6IurRlf_H9tjNdkq8gpnPqYaQ.jpg?r=586"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> The Mummy Returns </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 9min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRqKbvWreiKaQIdrNVDEY6mMwDzO6B9VHeQsuxkrJHR_ewJJFtNqzpm6siEH3sOVaU96Z7O9hE-0MFHNmSwToU-Ty4A.jpg?r=acc"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> The Space Between Us </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABffbEHOkQiiU2Rjj99eUJcL5jm7AxHprtAdPfZ1B6e-CcJ3VyjXfApgh70VG9g7dTYPnME8N1C6yZm0bg6fKWcMNeRy-wH1CCTwdNqRx1ePCXlImayIrMWUbqfSw.jpg?r=658"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Bright </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">18+</div>
+                        <span class="text-white">1h 57min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Romantic Movies</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbngk1oILLMaO-r9tL8CVd2L-RWiQuxOsNO2pC7o2IPg-3mNVIf1e1QrPgmaDHTx1WJbozEEp6ptNiCoEgr6fWT4pSg.jpg?r=c28"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Twilight </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 1min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRM9MK_24zh0JvqFTLZcat2G1cOLvBVie0hCerSqlaOsOvOJbtKpffeJygk4aFDzhB_x6ne5sLbzHFpPHHuLFLHYI-xuf_bc8dWulFfwMCCs_s4k2MtMoyvxdQvs.jpg?r=1b0"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> The Kissing Booth</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">1h 46min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">58+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSOkKnGBRWFxl08ZG0LCz0NhUe26tot5yI4pQ2NdiLSVrqgPEgwPoojRaSmzupror-NFJzAJEs5FV6FStEePiTxVskk.jpg?r=44b"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Kapoor & Sons </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">2h 17min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABX319GhBSm-9bbksp1-MX4kfWKdx7lPttfVu8Lvz0eNEgq35_FcKvxVqwlwyTaEb5h85q6fleUxDjg0ExrM33nDokql5DfH6QbBu-g7LAo0thRrqZL6O6WcqHc7l.jpg?r=25b"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#">To All the Boys <br> I’ve Loved Before</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">1h 40min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRnWLHqW3zeNozknAA6crYDkx7EJKzs1MoY7QCKMMR9GjNQYpfHPTHKSHtzNDUwDjNhKVrRJyCxVpCGC3r8O7hzncJ4.jpg?r=e9c"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Half Girlfriend </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 9min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Blockbuster Movies</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeDyYguyRPqiONrCAsZRrrEK52jApnv5eXKes28q7dGwc3RiQJ_T_OBHnu9dh3JqFT8V1qbwUUROnTTsUmLp9lW_40A.jpg?r=93b"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Venom </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">1h 52min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABells49OPiobRH3BttwrhZnhFaYZLeJbioynhr88j5D8MIT4hOjKVf6vFvBrdQ5HMiLK1r0ChUKYFJnNbDm02t1Lb_w.jpg?r=1ab"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Mission: Impossible - Fallout</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 26min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">58+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABaUZCko9ZdJn866f2JC7fV1b59DcXvwnCPAnRTH6mSuJ7gJIp99Zfaia93WAx3DpssEzOmhvY4XCB3TxmDw5Ve3GJNM.jpg?r=bf5"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> The Amazing Spider-Man 2 </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 21min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdo881_V2U-FfgsBGo3IHcnKKO3W7YPRx5HgyZhYQWDMcr9TAunN_0qhqzJok5A2TDfHyPV7iPJE9q-TyJ0uImffPf3WW5Jty_LOO5lnxzgGH26HLdM7udkp4hmD.jpg?r=38a"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Bird Box </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">18+</div>
+                        <span class="text-white">2h 4min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZmsZsufWi9h9KrNqg6_cTxj4AbIgFeCOoEdRcdIh2A6BBC99tCfpf_lcja075H9X_eq_pkThcKXz6MJ_ikt5t4WfCs.jpg?r=f2a"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Baahubali: The Beginning </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 38min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Horror Movies</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbBGpSiY43g6ozGsu08l9oY91ccBorqdhBS2N1rLQ2xuJEyOiPE7deXXE4nJkqjjAy90R8H7T8AptEWeBQZtJRmb4yw.jpg?r=bd6"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Don't Breathe 2 </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">18+</div>
+                        <span class="text-white">1h 38min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWwjB0gPhss9coE4tlz6za8g9KuYfE3DDUBBTwxVyw00EBroYZsrBb9dkBsrYvjkcXyHbWrRZPKFCmxwSaYr_mISnvYQtxmD0UUF_HswsD5vNLyCY8CZ2MviecHv.jpg?r=400"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> #Alive</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">1h 38min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">58+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXeREvRYSnoikLeNlVEjEyTDkkC9CnkQUp-S_r3FU2m4mqMs2TC7zNvpr2j-596jr0yoEdIfQbNl__9WcZEa1lllZDA.jpg?r=a85"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> It Chapter Two </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">18+</div>
+                        <span class="text-white">2h 49min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZUVkb-0Ok7IBsvWaDbH2oUgR-WjYAlSrotfLR4J8OaYO3sKCd2rSGtDpOntQsJFQdxROWESpDX2QfjOpXCOiBGkx6c.jpg?r=fbf"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> The Conjuring </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">1h 51min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABR3kbDWSag0ZK3lo63nAhylZIAXVC7f2z-NR_b_Fas8cukeOIg3xnSqYSrQAicHjvQLLuj9SX3BZ-qaxkwjj292FH9c.jpg?r=bcd"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Annabelle Comes Home </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">1h 46min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div class="iq-main-header d-flex align-items-center justify-content-between">
+              <h4 class="main-title">Comedies</h4>
+              <a href="#" class="iq-view-all">View All</a>
+            </div>
+            <div class="favorite-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <!-- slide item 1 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZHghluztVZMnZPiUHwRwhxriPl4w9Q5AF9VpDI9OuyBf9xztmks2GxDdRpi-zqpDZN62VsCx76pvlkVn2-uERe9h2w.jpg?r=3c4"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Johnny English Reborn </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">1h 41min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 2 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSkx8i2XqKUfRJUofRQ7Lf9yvERdzBODIvFKymtan0gTkoUTVHAVEpFyqwGF2XgKT6ytiY8jz2hs-JZkssuIDUEGjfI.jpg?r=a6b"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Stree</a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">2h 6min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">58+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 3 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdGpMCirrE7rn35eIYAZT1sKEh4Wqgl_4DMPhSHwb3mBFNEFL4nEicz2A_SfbK9OdC6eCBoGinEpg3IHlLkYja_jo-_WluFNJ50S-eIdtvpKVSuGIrc2QOSj0ynh.jpg?r=f16"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Murder Mystery </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">16+</div>
+                        <span class="text-white">1h 37min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 4 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXzi0lu8BnIhIvJ91q1OkRQfiOM7A2_T2e7-WnXdNwRKCUKPiwrzD7c5LQgC0prXhHowb-ytoBDbLB82ex8zoel2Se8.jpg?r=3e6"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Men in Black: International </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">1h 55min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- slide item 5 -->
+                <li class="slide-item">
+                  <div class="block-images position-relative">
+                    <div class="img-box">
+                      <img
+                        src="https://occ-0-4632-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABf8LPJMdD7g6UG_YpRzSxNu3xdh5eJtxqAn1qITUwBFiKsB_NY76Vuim5-21O9ZSNyCS4yfvacsaK3qd6X2rEW9ZFiU.jpg?r=85b"
+                        class="img-fluid" alt="" />
+                    </div>
+                    <div class="block-description">
+                      <h6 class="iq-title">
+                        <a href="#"> Mr Bean's Holiday </a>
+                      </h6>
+                      <div class="movie-time d-flex align-items-center my-2">
+                        <div class="badge badge-secondary p-1 mr-2">13+</div>
+                        <span class="text-white">1h 29min</span>
+                      </div>
+                      <div class="hover-buttons">
+                        <span class="btn btn-hover iq-button">
+                          <i class="fa fa-play mr-1"></i>
+                          Play Now
+                        </span>
+                      </div>
+                    </div>
+                    <div class="block-social-info">
+                      <ul class="list-inline p-0 m-0 music-play-lists">
+                        <li class="share">
+                          <span><i class="fa fa-share-alt"></i></span>
+                          <div class="share-box">
+                            <div class="d-flex align-items-center">
+                              <a href="#" class="share-ico"><i class="fa fa-share-alt"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-youtube"></i></a>
+                              <a href="#" class="share-ico"><i class="fa fa-instagram"></i></a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-heart"></i></span>
+                          <span class="count-box">19+</span>
+                        </li>
+                        <li>
+                          <span><i class="fa fa-plus"></i></span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- main content ends  -->
+
+
+  <footer class="iq-bg-dark">
+    <div class="footer-top">
+      <div class="container-fluid">
+        <div class="row footer-standard">
+          <div class="col-lg-5">
+            <div class="widget text-left">
+              <div>
+                <ul class="menu p-0">
+                  <li><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a></li>
+                  <li><a href="https://help.netflix.com/legal/privacy">Privacy-Policy</a></li>
+                  <li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+                  <li><a href="#">Watch List</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="widget text-left">
+              <div class="textwidget">
+                <p><small></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <h6 class="footer-link-title">
+              Follow Us:
+            </h6>
+            <ul class="info-share">
+              <li>
+                <a href="https://www.facebook.com/netflix/">
+                  <i>
+                    <fa class="fa fa-facebook"></fa>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/c/Netflix/featured">
+                  <i>
+                    <fa class="fa fa-youtube"></fa>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/netflix/?hl=en">
+                  <i>
+                    <fa class="fa fa-instagram"></fa>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- js files  -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
